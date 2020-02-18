@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+
+[packages]
+flask = "*"
+flask-bcrypt = "*"
+flask-migrate = "*"
+flask-script = "*"
+flask-testing = "*"
+flask-sqlalchemy = "*"
+pyjwt = "*"
+flask-restplus = "*"
+uuid = "*"
+flask-jwt-extended = "*"
+pymongo = "*"
+werkzeug = "*"
+wekzeug = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
